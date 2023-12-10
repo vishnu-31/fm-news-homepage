@@ -9,12 +9,12 @@ const TopBar = () => {
                 <img src="/images/logo.svg" alt="" />
             </a>
             
-            <ul className="hidden md:flex justify-end md:w-[40%]">
-                <li className="text-lg mx-6 my-3 hover:text-red-500"><a href="#">Home</a></li>
-                <li className="text-lg mx-6 my-3 hover:text-red-500"><a href="#">New</a></li>
-                <li className="text-lg mx-6 my-3 hover:text-red-500"><a href="#">Popular</a></li>
-                <li className="text-lg mx-6 my-3 hover:text-red-500"><a href="#">Trending</a></li>
-                <li className="text-lg mx-6 my-3 hover:text-red-500"><a href="#">Categories</a></li>
+            <ul className="hidden md:flex justify-end md:w-[25%] lg:w-[40%]">
+                <li className="text-lg md:mx-5 lg:mx-6 my-3 hover:text-red-500"><a href="#">Home</a></li>
+                <li className="text-lg md:mx-5 lg:mx-6 my-3 hover:text-red-500"><a href="#">New</a></li>
+                <li className="text-lg md:mx-5 lg:mx-6 my-3 hover:text-red-500"><a href="#">Popular</a></li>
+                <li className="text-lg md:mx-5 lg:mx-6 my-3 hover:text-red-500"><a href="#">Trending</a></li>
+                <li className="text-lg md:mx-5 lg:mx-6 my-3 hover:text-red-500"><a href="#">Categories</a></li>
             </ul>
             <div className=" absolute top-5 right-5 flex md:hidden h-12">
                     <button onClick={()=>setIsNavOpen(!isNavOpen)}>
