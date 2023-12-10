@@ -4,7 +4,7 @@ import { useState } from "react";
 const TopBar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     return (
-        <nav className="flex justify-between p-3">
+        <nav className="flex justify-between p-3 pr-0">
             <a href="#">
                 <img src="/images/logo.svg" alt="" />
             </a>
