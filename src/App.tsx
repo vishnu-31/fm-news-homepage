@@ -47,9 +47,9 @@ const bottomRow = [
 function App() {
 
   return (
-    <main className="p-2 mx-auto md:p-6  md:px-24 lg:px-48  min-h-[100svh]">
+    <main className="p-2 mx-auto md:p-6  md:px-20 lg:px-48 max-w-[110em]  min-h-[100svh]">
     <TopBar/>
-    <div className="grid grid-cols-1 mx-auto md:grid-cols-8 lg:grid-cols-12 gap-x-10 gap-y-6 min-h-[80vh] pb-5 content-start">
+    <div className="grid grid-cols-1 mx-auto md:grid-cols-8 lg:grid-cols-12 gap-x-10 gap-y-6 pb-5 content-start">
       <div className="col-span-1 md:col-span-8"><MainArticle mainNews={mainNews}/></div>
       <div className="col-span-1 md:col-span-4"><SideArticle sideList={sideList}/></div> 
       <div className="col-span-1 md:col-span-4 lg:col-span-12"><BottomRow bottomRow={bottomRow}/></div>
